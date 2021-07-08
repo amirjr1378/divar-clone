@@ -7,6 +7,7 @@ export default function Home() {
         <title>Divar clone</title>
       </Head>
       <h1>Divar clone</h1>
+      <span className="lnr lnr-mustache"></span> lnr-mustache
     </div>
   )
 }

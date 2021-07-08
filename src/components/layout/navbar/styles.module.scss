@@ -1,4 +1,26 @@
 .navbar__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: 500;
+  height: 65px;
+  max-height: 65px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+  padding: 0 32px;
+  .city__name {
+    color: rgba(0, 0, 0, 0.56);
+    margin-right: 5px;
+  }
+  ul {
+    margin: unset;
+  }
+  li {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 6px;
+  }
 }

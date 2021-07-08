@@ -8,7 +8,12 @@ class MyDocument extends Document {
           <link
             rel="stylesheet"
             href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
-          ></link>
+          />
+          <link
+            href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v29.1.0/dist/font-face.css"
+            rel="stylesheet"
+            type="text/css"
+          />
         </Head>
         <body>
           <Main />

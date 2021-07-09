@@ -1,5 +1,7 @@
 // TODO: complete this component
+import Image from 'next/image'
 import React, { ReactElement } from 'react'
+
 import s from './styles.module.scss'
 import { ProductCardProps } from './types'
 
@@ -10,7 +12,12 @@ function ProductCard(props: ProductCardProps): ReactElement {
       id: {id}
       name: {name}
       price: {price}
-      image: {image}
+      <Image
+        src={image || '/img/default-image.jpg'}
+        width={135}
+        height={136}
+        alt="product"
+      />
     </div>
   )
 }

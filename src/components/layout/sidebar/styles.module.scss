@@ -1,0 +1,23 @@
+.sidebar__container {
+  direction: rtl;
+  text-align: right;
+
+  .top__sidebar {
+    text-align: right;
+    ul {
+      padding: 0;
+    }
+    li {
+      list-style-type: none;
+      color: rgba(0, 0, 0, 0.56);
+      cursor: pointer;
+      padding: 5px;
+      margin-top: 2px;
+      transition: color 0.36s ease;
+    }
+    li:hover {
+      color: rgba(0, 0, 0, 0.9);
+      transition: 0.3s;
+    }
+  }
+}

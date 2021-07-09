@@ -23,11 +23,11 @@ function Navbar(): ReactElement {
         <nav>
           <ul className="row align-items-center">
             <li>
-              <span class="lnr lnr-user"></span>
+              <span className="lnr lnr-user"></span>
               <div className="mr-2">دیوار من</div>
             </li>
             <li>
-              <span class="lnr lnr-bubble"></span>
+              <span className="lnr lnr-bubble"></span>
               <div className="mr-2">چت</div>
             </li>
             <li>پشتیبانی</li>

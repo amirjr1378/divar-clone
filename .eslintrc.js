@@ -6,7 +6,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'spellcheck'],
+  plugins: ['@typescript-eslint', 'spellcheck', 'simple-import-sort', 'import'],
   rules: {
     'prefer-const': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
@@ -30,5 +30,7 @@ module.exports = {
         minLength: 4,
       },
     ],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
   },
 }

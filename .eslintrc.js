@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     'prefer-const': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-explicit-any': 'off',
     'spellcheck/spell-checker': [
       1,
       {

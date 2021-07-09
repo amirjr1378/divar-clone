@@ -1,8 +1,7 @@
 /* make the customizations */
 $theme-colors: (
-  "primary": tomato,
-  "danger": teal,
+  'primary': #a62626,
 );
 
 /* import bootstrap to set changes */
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';

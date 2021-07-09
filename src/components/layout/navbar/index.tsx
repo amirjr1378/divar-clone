@@ -1,43 +1,58 @@
 // TODO: complete this component
 
-import React, { ReactElement } from 'react'
-
 import Image from 'next/image'
+import Link from 'next/link'
+import React, { ReactElement } from 'react'
+import Button from 'react-bootstrap/Button'
+import Nav from 'react-bootstrap/Nav'
+
 import logoPic from '@/../public/img/logo.svg'
+
 import s from './styles.module.scss'
+
+const NavLinkComponent = (props: Record<string, any>) => (
+  <Link href={'/'}>
+    <a {...props}>{props.children}</a>
+  </Link>
+)
 
 function Navbar(): ReactElement {
   return (
-    <div className={s.navbar__container}>
-      <div className="row align-items-center">
-        <Image src={logoPic} width={48} height={48} />
-        <div className="col-6 mr-4" style={{ borderRight: '1px solid #ddd' }}>
-          <span
-            className="lnr lnr-map-marker"
-            style={{ fontSize: '16px' }}
-          ></span>
-          <span className={s.city__name}>تهران</span>
-        </div>
+    <>
+      <div className={s.navbar__container}>
+        {/* right content */}
+        <Link href="/">
+          <a>
+            <Image src={logoPic} width={48} height={48} />
+          </a>
+        </Link>
+        <hr />
+
+        <div className="mr-auto" />
+        {/* left content */}
+        <Nav activeKey="/">
+          <Nav.Item>
+            <Nav.Link href="/me" as={NavLinkComponent}>
+              <span className="lnr lnr-user" />
+              <span>دیوار من</span>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/chat" as={NavLinkComponent}>
+              <span className="lnr lnr-bubble" />
+              <span>چت</span>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/support" as={NavLinkComponent}>
+              <span>پشتیبانی</span>
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+        <Button type="primry">ثبت آگهی</Button>
       </div>
-      <div className="row align-items-center">
-        <nav>
-          <ul className="row align-items-center">
-            <li>
-              <span className="lnr lnr-user"></span>
-              <div className="mr-2">دیوار من</div>
-            </li>
-            <li>
-              <span className="lnr lnr-bubble"></span>
-              <div className="mr-2">چت</div>
-            </li>
-            <li>پشتیبانی</li>
-            <li>
-              <button className="btn-primary">ثبت آگهی</button>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+      <div style={{ marginTop: 65 }} />
+    </>
   )
 }
 

@@ -4,7 +4,6 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
 import Navbar from '@/components/layout/navbar'
-import Sidebar from '@/components/layout/sidebar'
 import ReduxProviderWrapper from '@/redux/ProviderWrapper'
 
 function MyApp(props: AppProps) {
@@ -18,11 +17,6 @@ function MyApp(props: AppProps) {
 
       <ReduxProviderWrapper>
         <Navbar />
-        <div className="row">
-          <div className="col-2">
-            <Sidebar />
-          </div>
-        </div>
         <Component {...pageProps} />
       </ReduxProviderWrapper>
     </>

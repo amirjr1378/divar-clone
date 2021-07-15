@@ -32,11 +32,12 @@ function SelectCity(props: Props): ReactElement {
         <Row className="mt-3">
           {cities?.length
             ? cities?.map((city) => (
-                <Col key={city.id} sm={6} md={4} lg={3} className="mb-2">
+                <Col key={city.id} sm={6} md={3} lg={2} className="mb-2">
                   <Button
                     variant="outline-primary"
                     className="d-block w-100"
                     onClick={() => onSelect(city)}
+                    size="lg"
                   >
                     {city.name}
                   </Button>

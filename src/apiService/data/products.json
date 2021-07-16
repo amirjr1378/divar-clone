@@ -1,0 +1,650 @@
+[
+  {
+    "title": "یخچال کوچک اداری ایستکول ۵فوت TM835",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440522/AYY7RcAT.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440522/AYY7RcAT.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440522/AYY7RcAT.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۳,۱۴۰,۰۰۰ تومان",
+    "has_chat": false,
+    "red_text": "فروشگاه ",
+    "normal_text": "جشنواره در امین حضور",
+    "token": "AYY7RcAT",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 0,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "امین حضور",
+    "category": "یخچال و فریزر",
+    "id": 0
+  },
+  {
+    "title": "لباسشویی سامسونگ مدل big wash",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxLEkRh.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxLEkRh.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxLEkRh.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۵,۵۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در امام حسین(ع)",
+    "token": "AYxLEkRh",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 1,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "امام حسین(ع)",
+    "category": "ماشین لباسشویی و خشک کننده",
+    "id": 1
+  },
+  {
+    "title": "شلوار فاق بلند",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxPEimh.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxPEimh.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440521/AYxPEimh.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۵۸,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در سعادت‌آباد",
+    "token": "AYxPEimh",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 2,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "سعادت‌آباد",
+    "category": "لباس",
+    "id": 2
+  },
+  {
+    "title": "آپارتمان 93متـری",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYvjSXnI.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYvjSXnI.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYvjSXnI.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "ودیعه: ۲۱۵,۰۰۰,۰۰۰ تومان\nاجاره ماهیانه: ۳,۵۰۰,۰۰۰ تومان",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در بریانک",
+    "token": "AYvjSXnI",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 3,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بریانک",
+    "category": "آپارتمان",
+    "id": 3
+  },
+  {
+    "title": "مبل کاناپه تخت سنتی سنتی چوب روی",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYWNEEsH.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYWNEEsH.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440518/AYWNEEsH.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۱۸۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در یافت‌آباد",
+    "token": "AYWNEEsH",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 4,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "یافت‌آباد",
+    "category": "مبلمان و صندلی راحتی",
+    "id": 4
+  },
+  {
+    "title": "ال ای دی ۳۲ LED LG",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLklgq.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLklgq.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLklgq.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۳,۳۵۰,۰۰۰ تومان",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در یافت‌آباد",
+    "token": "AYxLklgq",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 5,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "یافت‌آباد",
+    "category": "تلویزیون و پروژکتور",
+    "id": 5
+  },
+  {
+    "title": "دعوت به همکاری از فروشندگان حرفه ای پوشاک آقایان",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLk-39.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLk-39.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440519/AYxLk-39.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در میرداماد",
+    "token": "AYxLk-39",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 6,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "میرداماد",
+    "category": "بازاریابی و فروش",
+    "id": 6
+  },
+  {
+    "title": "اجاره آپارتمان 87 متری فاز 11 پردیس",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYmbrDxV.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYmbrDxV.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYmbrDxV.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "ودیعه: توافقی\nاجاره ماهیانه: توافقی",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در پردیس",
+    "token": "AYmbrDxV",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 7,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "پردیس",
+    "category": "آپارتمان",
+    "id": 7
+  },
+  {
+    "title": "۹۵متر،جنت آباد،سالن پرده خور،کم سن،کم واحد",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwjl3gX.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwjl3gX.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwjl3gX.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۳,۸۵۰,۰۰۰,۰۰۰ تومان",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "آژانس املاک در جنت‌آباد مرکزی",
+    "token": "AYwjl3gX",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 8,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "جنت‌آباد مرکزی",
+    "category": "آپارتمان",
+    "id": 8
+  },
+  {
+    "title": "تعمییرات انواع ساید یخچال شبانه روزی لباسشویی",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440513/wXPHEG0Q.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/wXPHEG0Q.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/wXPHEG0Q.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در نارمک",
+    "token": "wXPHEG0Q",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 9,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "نارمک",
+    "category": "پیشه و مهارت",
+    "id": 9
+  },
+  {
+    "title": "مبل یاس",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwGNFcU.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwGNFcU.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYwGNFcU.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۶,۳۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در نعمت‌آباد",
+    "token": "AYwGNFcU",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 10,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "نعمت‌آباد",
+    "category": "مبلمان و صندلی راحتی",
+    "id": 10
+  },
+  {
+    "title": "لباس مجلسی",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440515/AYxP0bmm.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440515/AYxP0bmm.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440515/AYxP0bmm.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۱,۵۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در ورامین",
+    "token": "AYxP0bmm",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 11,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "ورامین",
+    "category": "لباس",
+    "id": 11
+  },
+  {
+    "title": "آیپد ایر ۱۶ گیگ سیلور",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxH0l8f.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxH0l8f.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxH0l8f.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۲,۸۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهرک شریفی",
+    "token": "AYxH0l8f",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 12,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهرک شریفی",
+    "category": "تبلت",
+    "id": 12
+  },
+  {
+    "title": "یک ادابتور و چند کابل رابط اورجینال",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUlIW.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUlIW.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUlIW.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۳۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهر قدس",
+    "token": "AYxHUlIW",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 13,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهر قدس",
+    "category": "قطعات و لوازم جانبی",
+    "id": 13
+  },
+  {
+    "title": "عینک آفتابی برند آیس برلین هایکپی کد ۲۶ طبی",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYzIMAw3.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYzIMAw3.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYzIMAw3.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۲۹۸,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "فروشگاه ",
+    "normal_text": "عینک لرد در بازار",
+    "token": "AYzIMAw3",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 14,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بازار",
+    "category": "همه‌ی آگهی‌های تزیینی",
+    "id": 14
+  },
+  {
+    "title": "عینک طبی کائوچو طرح پرادا کد ۱۱۲۷",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440512/wXhTcAIy.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/wXhTcAIy.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/wXhTcAIy.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۹۸,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "فروشگاه ",
+    "normal_text": "عینک لرد در بازار",
+    "token": "wXhTcAIy",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 15,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بازار",
+    "category": "همه‌ی آگهی‌های تزیینی",
+    "id": 15
+  },
+  {
+    "title": "عینک طبی کاوردار با ۴ کاور کد ۹۰۰۳",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYuJaQWY.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYuJaQWY.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/AYuJaQWY.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۳۵۸,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "فروشگاه ",
+    "normal_text": "عینک لرد در بازار",
+    "token": "AYuJaQWY",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 16,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بازار",
+    "category": "همه‌ی آگهی‌های تزیینی",
+    "id": 16
+  },
+  {
+    "title": "عینک طبی با ۴ کاور مگنتی افتابی کد ۱۲۱۴۷",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440512/wX1Vr4ol.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/wX1Vr4ol.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440512/wX1Vr4ol.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۲۹۸,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "فروشگاه ",
+    "normal_text": "عینک لرد در بازار",
+    "token": "wX1Vr4ol",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 17,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بازار",
+    "category": "همه‌ی آگهی‌های تزیینی",
+    "id": 17
+  },
+  {
+    "title": "مبل استیل",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUl5e.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUl5e.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUl5e.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۵۰,۰۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهریار",
+    "token": "AYxHUl5e",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 18,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهریار",
+    "category": "مبلمان و صندلی راحتی",
+    "id": 18
+  },
+  {
+    "title": "اپارتمان 69متر تک خواب",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440511/AYd7IspT.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440511/AYd7IspT.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440511/AYd7IspT.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "توافقی",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "آژانس املاک در شهر ری - هاشم‌آباد",
+    "token": "AYd7IspT",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 19,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهر ری - هاشم‌آباد",
+    "category": "آپارتمان",
+    "id": 19
+  },
+  {
+    "title": "مبل سلطنتی",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUWOy.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUWOy.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440514/AYxHUWOy.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۵,۰۰۰,۰۰۰ تومان",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهر ری - استخر",
+    "token": "AYxHUWOy",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 20,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهر ری - استخر",
+    "category": "مبلمان و صندلی راحتی",
+    "id": 20
+  },
+  {
+    "title": "مانتو نو و سالم سایز ۴۶",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYxPEhCt.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYxPEhCt.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440513/AYxPEhCt.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۲۶۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در بهارستان",
+    "token": "AYxPEhCt",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 21,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "بهارستان",
+    "category": "لباس",
+    "id": 21
+  },
+  {
+    "title": "تختخواب و سرویسخواب",
+    "image": "https://s100.divarcdn.com/static/thumbnails/1626440509/AYmfJyFE.webp",
+    "web_image": [
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440509/AYmfJyFE.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s100.divarcdn.com/static/thumbnails/1626440509/AYmfJyFE.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "۱,۹۰۰,۰۰۰ تومان",
+    "has_chat": true,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهید رجایی",
+    "token": "AYmfJyFE",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 22,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهید رجایی",
+    "category": "تخت و اتاق خواب",
+    "id": 22
+  },
+  {
+    "title": "دوچرخه ثابت تایوانی اصل در حد نو",
+    "image": "https://s101.divarcdn.com/static/thumbnails/1626440520/AYxHUCLA.webp",
+    "web_image": [
+      {
+        "src": "https://s101.divarcdn.com/static/thumbnails/1626440520/AYxHUCLA.webp",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://s101.divarcdn.com/static/thumbnails/1626440520/AYxHUCLA.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "description": "توافقی",
+    "has_chat": false,
+    "red_text": "",
+    "normal_text": "لحظاتی پیش در شهرک آزادی",
+    "token": "AYxHUCLA",
+    "image_overlay_tag": null,
+    "image_top_left_tag": null,
+    "index": 23,
+    "postapi-version": 1,
+    "city": "تهران",
+    "district": "شهرک آزادی",
+    "category": "دوچرخه/اسکیت/اسکوتر",
+    "id": 23
+  }
+]

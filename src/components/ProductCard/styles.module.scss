@@ -1,2 +1,33 @@
 .productCard__container {
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fff;
+  position: relative;
+  height: 168px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  text-decoration: none !important;
+  color: black !important;
+
+  .productCard__image {
+    border-radius: 4px;
+  }
+
+  .productCard__description {
+    padding-left: 0.3em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: calc(100% - 135px);
+    * {
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+      overflow: hidden;
+    }
+    h5 {
+      font-size: 1em;
+    }
+  }
 }

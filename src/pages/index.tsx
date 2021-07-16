@@ -1,16 +1,20 @@
+import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import { useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 
 import SelectCity from '@/components/SelectCity/NormalSelectCity'
-import { useCity } from '@/redux/hooks'
+import { changeCity } from '@/redux/features/city/citySlice'
+import { useAppDispatch, useCity } from '@/redux/hooks'
 
 export default function Home() {
+  const router = useRouter()
+  const dispatch = useAppDispatch()
   const city = useCity()
 
   useEffect(() => {
-    if (city) alert('city is selected')
-  }, [])
+    if (city?.id) router.push(`/search?cityID=${city.id}`)
+  }, [city])
 
   return (
     <div>
@@ -19,7 +23,7 @@ export default function Home() {
       </Head>
       <Row className="justify-content-center pt-3">
         <Col sm={12} md={9} lg={8}>
-          <SelectCity onSelect={(city) => console.log(city)} />
+          <SelectCity onSelect={(city) => dispatch(changeCity(city))} />
         </Col>
       </Row>
     </div>

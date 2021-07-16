@@ -39,7 +39,7 @@ function SelectCity(props: Props): ReactElement {
                     onClick={() => onSelect(city)}
                     size="lg"
                   >
-                    {city.name}
+                    <div className="text-truncate">{city.name}</div>
                   </Button>
                 </Col>
               ))

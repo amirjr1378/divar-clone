@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button'
 import Nav from 'react-bootstrap/Nav'
 
 import logoPic from '@/../public/img/logo.svg'
+import { useCity } from '@/redux/hooks'
 
 import s from './styles.module.scss'
 
@@ -17,6 +18,9 @@ const NavLinkComponent = (props: Record<string, any>) => (
 )
 
 function Navbar(): ReactElement {
+  const city = useCity()
+  console.log(city)
+
   return (
     <>
       <div className={s.navbar__container}>
@@ -27,6 +31,13 @@ function Navbar(): ReactElement {
           </a>
         </Link>
         <hr />
+
+        {city?.name && (
+          <div className="d-flex align-items-center">
+            <span className="lnr lnr-map-marker ml-2" />
+            <span className="text-muted">{city?.name}</span>
+          </div>
+        )}
 
         <div className="mr-auto" />
         {/* left content */}

@@ -3,6 +3,7 @@ import React, { ReactElement, useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 
 import ApiService from '@/apiService'
+import PageContainer from '@/components/layout/container'
 import Loading from '@/components/loading'
 import ProductCard from '@/components/ProductCard'
 import { IProduct } from '@/types/product'
@@ -21,7 +22,7 @@ function Search(): ReactElement {
   }, [cityID])
 
   return (
-    <div>
+    <PageContainer>
       {loading ? (
         <Loading />
       ) : (
@@ -33,7 +34,7 @@ function Search(): ReactElement {
           ))}
         </Row>
       )}
-    </div>
+    </PageContainer>
   )
 }
 

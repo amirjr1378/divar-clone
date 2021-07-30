@@ -1,8 +1,8 @@
 import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import { useEffect } from 'react'
-import { Col, Row } from 'react-bootstrap'
 
+import PageContainer from '@/components/layout/container'
 import SelectCity from '@/components/SelectCity/NormalSelectCity'
 import { changeCity } from '@/redux/features/city/citySlice'
 import { useAppDispatch, useCity } from '@/redux/hooks'
@@ -14,18 +14,17 @@ export default function Home() {
 
   useEffect(() => {
     if (city?.id) router.push(`/search?cityID=${city.id}`)
-  }, [city])
+  }, [city?.id])
 
   return (
     <div>
       <Head>
         <title>Divar clone</title>
       </Head>
-      <Row className="justify-content-center pt-3">
-        <Col sm={12} md={9} lg={8}>
-          <SelectCity onSelect={(city) => dispatch(changeCity(city))} />
-        </Col>
-      </Row>
+
+      <PageContainer>
+        <SelectCity onSelect={(city) => dispatch(changeCity(city))} />
+      </PageContainer>
     </div>
   )
 }

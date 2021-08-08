@@ -62,7 +62,7 @@ function Navbar(): ReactElement {
         </Nav>
         <Button type="primry">ثبت آگهی</Button>
       </div>
-      <div style={{ marginTop: 65 }} />
+      <div style={{ marginTop: 70 }} />
     </>
   )
 }

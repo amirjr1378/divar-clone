@@ -2,10 +2,10 @@ import React, { ReactElement } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
 
-import Loading from '@/components/loading'
+import Loading from '@/components/containers/Loading'
 import type { ICity } from '@/types'
 
-import { useCities } from '../useCities'
+import { useCities } from './useCities'
 
 interface Props {
   onSelect: (city: ICity) => void

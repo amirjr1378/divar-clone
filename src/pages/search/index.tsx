@@ -3,9 +3,9 @@ import React, { ReactElement, useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 
 import ApiService from '@/apiService'
-import PageContainer from '@/components/layout/container'
-import Loading from '@/components/loading'
-import ProductCard from '@/components/ProductCard'
+import PageContainer from '@/components/containers/layout/PageContainer'
+import Loading from '@/components/containers/Loading'
+import ProductCard from '@/components/product/ProductCard'
 import { IProduct } from '@/types/product'
 
 function Search(): ReactElement {

@@ -2,8 +2,8 @@ import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import { useEffect } from 'react'
 
-import PageContainer from '@/components/layout/container'
-import SelectCity from '@/components/SelectCity/NormalSelectCity'
+import SelectCity from '@/components/city/SelectCity'
+import PageContainer from '@/components/containers/layout/PageContainer'
 import { changeCity } from '@/redux/features/city/citySlice'
 import { useAppDispatch, useCity } from '@/redux/hooks'
 

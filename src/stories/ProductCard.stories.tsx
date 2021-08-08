@@ -1,8 +1,8 @@
 import { Meta, Story } from '@storybook/react'
 import React from 'react'
 
-import ProductCard from '@/components/ProductCard'
-import { IProduct } from '@/types/product'
+import ProductCard from '@/components/product/ProductCard'
+import type { IProduct } from '@/types/product'
 
 export default {
   title: 'Components/ProductCard',

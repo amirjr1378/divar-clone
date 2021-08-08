@@ -3,9 +3,7 @@ import { useEffect, useState } from 'react'
 import ApiService from '@/apiService'
 import type { ICity } from '@/types'
 
-type UseCityType = () => [ICity[], (searchText: string) => void, boolean]
-
-export const useCities: UseCityType = () => {
+export const useCities = () => {
   const [loading, setLoading] = useState<boolean>(true)
   const [allCities, setAllCities] = useState<ICity[]>([])
   const [cities, setCities] = useState<ICity[]>([])
@@ -24,5 +22,5 @@ export const useCities: UseCityType = () => {
       .finally(() => setLoading(false))
   }, [])
 
-  return [cities, searchWithCityName, loading]
+  return [cities, searchWithCityName, loading] as const
 }

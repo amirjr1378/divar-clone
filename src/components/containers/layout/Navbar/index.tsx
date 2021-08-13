@@ -2,15 +2,15 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { ReactElement } from 'react'
-import Button from 'react-bootstrap/Button'
+import React, { ReactElement, useState } from 'react'
 import Nav from 'react-bootstrap/Nav'
 
 import logoPic from '@/../public/img/headerI-icon.PNG'
 import { useCity } from '@/redux/hooks'
 
 import s from './styles.module.scss'
-import { Badge} from 'react-bootstrap'
+import { Badge, ButtonGroup, Dropdown } from 'react-bootstrap'
+import CustomDropDown from '../../dropdowns'
 
 const NavLinkComponent = (props: Record<string, any>) => (
   <Link href={'/'}>
@@ -19,18 +19,27 @@ const NavLinkComponent = (props: Record<string, any>) => (
 )
 
 function Navbar(): ReactElement {
-  const city = useCity()
-  console.log(city)
+  const [visible, setVisible] = useState(false)
 
   return (
     <>
       <div className={s.navbar__container}>
         {/*####### right content #######*/}
-        <div className={s.right__content}></div>
+        <div className={s.right__content}>
+          <Nav>
+            <Nav.Item className="mr-1 ml-1">
+              <Nav.Link as={NavLinkComponent} className={s.navbar__items}>
+                <CustomDropDown width="50px" height="35px">
+                  hello
+                </CustomDropDown>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </div>
 
         {/*####### center content #######*/}
         <div className={s.center__content}>
-          <Image src={logoPic} width={100} height={55} />
+          <Image src={logoPic} width={100} height={55} alt="logoImage" />
         </div>
 
         {/*####### left content #######*/}
@@ -38,10 +47,8 @@ function Navbar(): ReactElement {
           <div className={s.search_icon_box}>
             <span className="lnr lnr-magnifier"></span>
             <span className="mr-1">جستجو</span>
-            {/* <input type="text" placeholder="جستجو کالا ..."/> */}
           </div>
           <Nav activeKey="/">
-            <Nav.Item></Nav.Item>
             <Nav.Item className="mr-1 ml-1">
               <Nav.Link
                 href="/chat"

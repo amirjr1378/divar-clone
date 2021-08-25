@@ -1,22 +1,22 @@
 import React, { ReactElement, ReactNode } from 'react'
 import s from './style.module.scss'
 
-interface Props {
+interface IProps {
   width: number | string
   height: number | string
-  isVisible: boolean
+  visibility: boolean
   children: ReactNode
 }
-const CustomDropDown = (props: Props): ReactElement => {
-  const { height, width, children, isVisible } = props
+const CustomDropDown = (props: IProps): ReactElement => {
+  const { height, width, children, visibility } = props
   return (
     <div
       style={{
         width: width,
         height: height,
-        display: isVisible ? 'visible' : 'none',
+        display: visibility == true ? 'inherit' : 'none',
       }}
-      className={s.dropDown}
+      className={s.dropDownContainer}
     >
       {children}
     </div>

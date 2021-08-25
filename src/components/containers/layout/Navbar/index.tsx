@@ -1,16 +1,12 @@
-// TODO: complete this component
-
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { ReactElement, useState } from 'react'
+import { Badge, ButtonGroup, Dropdown } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 
 import logoPic from '@/../public/img/headerI-icon.PNG'
-import { useCity } from '@/redux/hooks'
 
 import s from './styles.module.scss'
-import { Badge, ButtonGroup, Dropdown } from 'react-bootstrap'
-import CustomDropDown from '../../dropdowns'
 
 const NavLinkComponent = (props: Record<string, any>) => (
   <Link href={'/'}>
@@ -19,8 +15,19 @@ const NavLinkComponent = (props: Record<string, any>) => (
 )
 
 function Navbar(): ReactElement {
-  const [visible, setVisible] = useState(false)
-
+  const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
+    <span
+      style={{ cursor: 'pointer' }}
+      className={s.navbar__items}
+      ref={ref}
+      onClick={(e) => {
+        e.preventDefault()
+        onClick(e)
+      }}
+    >
+      {children}
+    </span>
+  ))
   return (
     <>
       <div className={s.navbar__container}>
@@ -28,11 +35,27 @@ function Navbar(): ReactElement {
         <div className={s.right__content}>
           <Nav>
             <Nav.Item className="mr-1 ml-1">
-              <Nav.Link as={NavLinkComponent} className={s.navbar__items}>
-                <CustomDropDown width="50px" height="35px">
-                  hello
-                </CustomDropDown>
-              </Nav.Link>
+              <Dropdown>
+                <Dropdown.Toggle
+                  as={CustomToggle}
+                  id="dropdown-custom-components"
+                  className={s.navbar__Right_items}
+                >
+                  وسایل برقی
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className={s.dropDown__menu}>
+                  <Dropdown.Item className={s.dropDown__item} eventKey="1">
+                    لباس شویی
+                  </Dropdown.Item>
+                  <Dropdown.Item className={s.dropDown__item} eventKey="2">
+                    جارو برقی
+                  </Dropdown.Item>
+                  <Dropdown.Item className={s.dropDown__item} eventKey="3">
+                    سه کاره
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </Nav.Item>
           </Nav>
         </div>
@@ -75,13 +98,13 @@ function Navbar(): ReactElement {
                 as={NavLinkComponent}
                 className={s.navbar__basket}
               >
-                <Badge bg="danger" className={s.badge__style}>
-                  7
-                </Badge>
-                <span
-                  className="lnr lnr-cart"
-                  style={{ fontSize: '20px' }}
-                ></span>
+                <Badge className={s.badge__style}>7</Badge>
+                <Image
+                  width={20}
+                  height={24}
+                  src="/img/shopping.png"
+                  alt="navbar-icon"
+                />
                 {/* <span>پشتیبانی</span> */}
               </Nav.Link>
             </Nav.Item>
